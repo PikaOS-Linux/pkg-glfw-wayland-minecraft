@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export DEB_BUILD_MAINT_OPTIONS := hardening=+all
+export DEB_LDFLAGS_MAINT_APPEND := -Wl,--as-needed
+
+CONFIGURE_COMMON = -DBUILD_SHARED_LIBS=ON
+
+%:
+	dh $@
+
+
+override_dh_auto_configure:
+	dh_auto_configure -Bbuild-wayland -- $(CONFIGURE_COMMON) -DGLFW_USE_WAYLAND=ON -DCMAKE_INSTALL_PREFIX=/opt/glfw3-wayland-minecraft -DCMAKE_INSTALL_LIBDIR=lib

@@ -1,0 +1,5 @@
+glfw3-wayland-minecraft (3.3.8-100pika1) pikauwu; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 24 Jul 2022 10:46:31 -0400

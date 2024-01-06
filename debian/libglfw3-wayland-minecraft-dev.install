@@ -1,0 +1,4 @@
+opt/glfw3-wayland-minecraft/include/*
+opt/glfw3-wayland-minecraft/lib/*/cmake/*
+opt/glfw3-wayland-minecraft/lib/*/lib*.so
+opt/glfw3-wayland-minecraft/lib/*/pkgconfig/*
