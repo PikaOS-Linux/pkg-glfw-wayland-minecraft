@@ -1,4 +1,5 @@
 01_reproducible-docs.patch
 0003-Don-t-crash-on-calls-to-focus-or-icon.patch
-0004-wayland-fix-broken-opengl-screenshots-on-mutter.patch
 0007-Platform-Prefer-Wayland-over-X11.patch
+0008-Wayland-Add-support-for-wp_fractional_scale_v1.patch
+0009-Defer-setting-cursor-position-until-the-cursor-is-lo.patch
