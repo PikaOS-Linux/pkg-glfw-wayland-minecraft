@@ -1,6 +1,11 @@
 01_reproducible-docs.patch
 02_remove-pkgconfig-requires.patch
+0001-Wayland-Set-O_NONBLOCK-on-repeat-timerfd.patch
+0002-Wayland-Continue-poll-if-timerfd-can-t-be-read.patch
 0003-Don-t-crash-on-calls-to-focus-or-icon.patch
 0004-wayland-fix-broken-opengl-screenshots-on-mutter.patch
 0005-Add-warning-about-being-an-unofficial-patch.patch
+0006-Don-t-crash-getting-scancode-name.patch
 0007-libdecor-proper-decorations-with-title-and-window-bu.patch
+0008-Add-libdecoration-marker-to-stderr-warning.patch
+0009-Wayland-Fix-cursor-offset-when-shape-changes.patch
