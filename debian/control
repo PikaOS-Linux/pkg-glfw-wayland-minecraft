@@ -23,6 +23,7 @@ Build-Depends:
  libxrandr-dev,
  pkg-config [linux-any],
  wayland-protocols (>= 1.15) [linux-any],
+ libdecor-0-dev
 Build-Depends-Indep:
  doxygen,
 Standards-Version: 4.6.1
@@ -70,6 +71,7 @@ Depends:
  libwayland-cursor0,
  libwayland-egl1,
  libxkbcommon0 (>= 0.5.0),
+ libdecor-0-0
  ${misc:Depends},
  ${shlibs:Depends},
 Suggests:
