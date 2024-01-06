@@ -2,3 +2,4 @@ wayland/usr/include/*
 wayland/usr/lib/*/cmake/*
 wayland/usr/lib/*/lib*.so
 wayland/usr/lib/*/pkgconfig/*
+opt/glfw3-wayland-minecraft/share/*
